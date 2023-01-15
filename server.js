@@ -4,9 +4,9 @@ require('dotenv').config()
 const PORT = process.env.PORT
 
 app.get('/', (req, res) => {
-  res.send('Hello, world!')
+  res.send('Hello, world! Testing 1...2....3!')
 })
 
-app.listen(PORT, () => console.log(`Server is running in port ${PORT}`))
+app.listen(PORT, () => console.log(`Server is running circles in port ${PORT}`))
 
 module.exports = app;
